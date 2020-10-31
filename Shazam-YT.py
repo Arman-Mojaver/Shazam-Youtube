@@ -53,9 +53,9 @@ class Song:
     def __repr__(self):
         return 'index: {}\t name: {} artist: {}'.format(self.index, self.name.ljust(80), self.artist)
 
-
+    
+# Opening the file in read mode, saving every line, and removing the end of line '\n'
 def get_data(file):
-    # Opening the file in read mode, saving every line, and removing the end of line '\n'
     with open(file, 'rt', encoding="utf8") as my_file:
         lines = [line.rstrip('\n') for line in my_file]
     return lines
