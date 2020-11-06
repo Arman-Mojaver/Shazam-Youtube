@@ -1,2 +1,2 @@
 # Shazam-Youtube
-It downloads the songs from your Shazam account from Youtube
+It downloads the songs of your Shazam account from Youtube
